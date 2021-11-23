@@ -8,7 +8,7 @@ describe "Cat" do
   it 'instantiates a new cat' do
     expect(maru).to be_a(Cat)
   end
-
+  
   it 'receives attr_accessor' do
     expect(Cat).to receive(:attr_accessor)
     load('meowing_cat.rb')
